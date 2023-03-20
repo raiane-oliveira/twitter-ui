@@ -13,3 +13,4 @@ Layout do Figma: www.figma.com/community/file/1202694130789327431
 -   TypeScript
 -   Vite
 -   CSS
+-   JSX
