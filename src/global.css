@@ -40,61 +40,6 @@ a {
    grid-template-columns: 300px 1fr;
 }
 
-.sidebar {
-   padding: 2.4rem 2rem;
-
-   display: flex;
-   flex-direction: column;
-   gap: 3.2rem;
-}
-
-.sidebar .logo {
-   width: 3.2rem;
-   height: 3.2rem;
-}
-
-.sidebar .new-tweet {
-   background-color: var(--twitter-blue);
-   border-radius: 9999px;
-   padding: 1.6rem;
-
-   text-align: center;
-   width: 100%;
-   color: #fff;
-   font-size: 2rem;
-   font-weight: 900;
-   border: 0;
-
-   transition: 0.2s;
-}
-
-.sidebar .new-tweet:hover {
-   filter: brightness(0.9);
-}
-
-.main-navigation {
-   display: flex;
-   flex-direction: column;
-   gap: 3.2rem;
-}
-
-.main-navigation a {
-   display: flex;
-   align-items: center;
-   gap: 2rem;
-   font-size: 2rem;
-   font-weight: 700;
-}
-
-.main-navigation a.active {
-   color: var(--twitter-blue);
-}
-
-.main-navigation a svg {
-   width: 3.2rem;
-   height: 3.2rem;
-}
-
 .content {
    border-left: 1px solid #ebeef0;
    border-right: 1px solid #ebeef0;
