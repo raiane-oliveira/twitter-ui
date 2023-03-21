@@ -1,0 +1,70 @@
+.tweet {
+   padding: 2.4rem 2rem;
+   display: grid;
+   grid-template-columns: auto 1fr;
+   gap: 1.2rem;
+   border-bottom: 1px solid #ebeef0;
+}
+
+.tweet img {
+   width: 4.8rem;
+   height: 4.8rem;
+   border-radius: 9999px;
+}
+
+.tweet .tweet-content {
+   display: flex;
+   flex-direction: column;
+   gap: 0.8rem;
+}
+
+.tweet .tweet-content .tweet-content-header {
+   display: flex;
+   align-items: center;
+   gap: 0.4rem;
+}
+
+.tweet .tweet-content .tweet-content-header span {
+   font-size: 1.4rem;
+   color: #89a2b8;
+}
+
+.tweet .tweet-content p {
+   line-height: 1.25;
+}
+
+.tweet .tweet-content .tweet-content-footer {
+   display: flex;
+   align-items: center;
+   gap: 4.8rem;
+   margin-top: 1.2rem;
+}
+
+.tweet .tweet-content .tweet-content-footer button {
+   display: flex;
+   align-items: center;
+   gap: 0.8rem;
+   background: transparent;
+   border: 0;
+
+   font-size: 1.4rem;
+   color: #89a2b8;
+   transition: 0.2s;
+}
+
+.tweet .tweet-content .tweet-content-footer button[data-tweet="comment"]:hover {
+   color: var(--twitter-blue);
+}
+
+.tweet .tweet-content .tweet-content-footer button[data-tweet="share"]:hover {
+   color: #00ba7c;
+}
+
+.tweet .tweet-content .tweet-content-footer button[data-tweet="like"]:hover {
+   color: #f91880;
+}
+
+.tweet .tweet-content .tweet-content-footer button svg {
+   width: 2rem;
+   height: 2rem;
+}

@@ -15,6 +15,7 @@ import {
    User,
    Sparkle,
 } from "phosphor-react";
+import { Tweet } from "./components/Tweet";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
    <React.StrictMode>
@@ -85,6 +86,8 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
                </form>
 
                <div className="separator" />
+
+               <Tweet />
             </main>
          </div>
       </div>
