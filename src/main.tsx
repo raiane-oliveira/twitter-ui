@@ -3,21 +3,19 @@ import ReactDOM from "react-dom/client";
 
 import "./global.css";
 
-import { Sparkle } from "phosphor-react";
 import { Tweet } from "./components/Tweet";
 import { Sidebar } from "./components/Sidebar";
+import { Header } from "./components/Header";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
    <React.StrictMode>
       <div className="layout">
          <Sidebar />
-         <div className="content">
-            <main className="timeline">
-               <header className="timeline-header">
-                  Home
-                  <Sparkle />
-               </header>
 
+         <div className="content">
+            <Header title="Home" />
+
+            <main className="timeline">
                <form className="new-tweet-form" action="">
                   <label htmlFor="tweet">
                      <img
