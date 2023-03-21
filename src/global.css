@@ -94,10 +94,3 @@ a {
 .new-tweet-form button[type="submit"]:hover {
    filter: brightness(0.9);
 }
-
-.separator {
-   background: #f7f9fa;
-   border-top: 1px solid #ebeef0;
-   border-bottom: 1px solid #ebeef0;
-   height: 1.2rem;
-}
