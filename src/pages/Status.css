@@ -47,6 +47,32 @@
    transition: 0.2s;
 }
 
+.answer-tweet-form button[type="submit"] svg {
+   width: 2.4rem;
+   height: 2.4rem;
+   display: none;
+}
+
 .answer-tweet-form button[type="submit"]:hover {
    filter: brightness(0.9);
+}
+
+@media (max-width: 780px) {
+   .answer-tweet-form label textarea {
+      font-size: 1.6rem;
+   }
+
+   .answer-tweet-form button[type="submit"] {
+      padding: 1.2rem;
+   }
+
+   .answer-tweet-form button[type="submit"] svg {
+      display: block;
+      width: 2rem;
+      height: 2rem;
+   }
+
+   .answer-tweet-form button[type="submit"] span {
+      display: none;
+   }
 }

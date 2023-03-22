@@ -26,6 +26,12 @@
    transition: 0.2s;
 }
 
+.sidebar .new-tweet svg {
+   width: 2.4rem;
+   height: 2.4rem;
+   display: none;
+}
+
 .sidebar .new-tweet:hover {
    filter: brightness(0.9);
 }
@@ -51,4 +57,20 @@
 .main-navigation a svg {
    width: 3.2rem;
    height: 3.2rem;
+}
+
+@media (max-width: 780px) {
+   .sidebar {
+      align-items: center;
+      padding: 2.4rem 1.2rem;
+   }
+
+   .main-navigation a span,
+   .sidebar .new-tweet span {
+      display: none;
+   }
+
+   .sidebar .new-tweet svg {
+      display: block;
+   }
 }
