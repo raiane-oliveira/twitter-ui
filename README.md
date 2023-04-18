@@ -28,3 +28,8 @@ Layout do Figma: www.figma.com/community/file/1202694130789327431
    -  Componente `Link` e `NavLik`
 -  Como separar melhor os elementos em componentes React
 -  Biblioteca Phosphor para ícones
+
+## 🤝 Feedbacks
+
+Se você tiver opiniões em como eu posso melhorar essa aplicação, por favor, me mande uma mensagem pelo [Linkedin](https://www.linkedin.com/in/raiane-oliveira-dev/) ou um <a href="mailto:raiane.oliveira404@gmail.com">e-mail</a>.<br>
+Eu ficarei feliz de responder e aprender mais com você! ;) ❤️
